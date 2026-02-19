@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesse Barrios Escobar – Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">JB<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Disponible para nuevas oportunidades
+      </div>
+      <h1 class="hero-title">
+        Jesse <span class="accent">Barrios</span><br />
+        <span class="hero-sub">Escobar</span>
+      </h1>
+      <p class="hero-role">
+        <span class="typed-text" id="typed"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc">
+        Analista de Datos en formación con experiencia en Python, análisis estadístico
+        y visualización de datos. Transformo datos complejos en decisiones de negocio claras.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-rocket"></i> Ver proyectos
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fa-solid fa-paper-plane"></i> Contactarme
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">8</span>
+          <span class="stat-lbl">Proyectos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">500K+</span>
+          <span class="stat-lbl">Registros analizados</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-lbl">Proyectos aprobados</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01 / Sobre mí</span>
+        <h2>¿Quién soy?</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-avatar">
+            <div class="avatar-ring">
+              <div class="avatar-inner">
+                <i class="fa-solid fa-user-tie"></i>
+              </div>
+            </div>
+            <div class="avatar-status">
+              <span class="badge-dot"></span> Activo
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-intro">
+            Hola, soy <strong>Jesse Barrios Escobar</strong>, analista de datos en formación
+            egresado del bootcamp intensivo de <strong>TripleTen</strong>. Mi pasión es encontrar
+            patrones ocultos en datos para generar valor real en los negocios.
+          </p>
+          <p>
+            A lo largo del programa completé <strong>8 sprints</strong> con proyectos aplicados
+            usando Python, pandas, NumPy, SciPy, Plotly y Streamlit. He trabajado con datasets
+            de más de <strong>500,000 registros</strong> realizando limpieza, análisis exploratorio,
+            pruebas estadísticas y visualizaciones interactivas.
+          </p>
+          <p>
+            Me motiva la intersección entre los datos y la toma de decisiones estratégicas.
+            Creo firmemente que un buen análisis bien comunicado puede transformar una empresa.
+          </p>
+          <div class="about-tags">
+            <span class="tag"><i class="fa-solid fa-graduation-cap"></i> TripleTen Bootcamp</span>
+            <span class="tag"><i class="fa-solid fa-chart-line"></i> Data Analytics</span>
+            <span class="tag"><i class="fa-brands fa-python"></i> Python</span>
+            <span class="tag"><i class="fa-solid fa-database"></i> SQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02 / Habilidades</span>
+        <h2>Stack tecnológico</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-solid fa-code skill-icon"></i>
+            <h3>Lenguajes</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-name">Python</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">SQL</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Markdown</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+              <span class="skill-pct">85%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-solid fa-layer-group skill-icon"></i>
+            <h3>Librerías / Frameworks</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-name">Pandas</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">NumPy</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">SciPy</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Matplotlib / Seaborn</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Plotly / Streamlit</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+              <span class="skill-pct">80%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-solid fa-brain skill-icon"></i>
+            <h3>Análisis & Estadística</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-name">EDA (Análisis Exploratorio)</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:92%"></div></div>
+              <span class="skill-pct">92%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Pruebas de Hipótesis</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Limpieza de Datos</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:95%"></div></div>
+              <span class="skill-pct">95%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Segmentación de Clientes</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+              <span class="skill-pct">85%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-solid fa-tools skill-icon"></i>
+            <h3>Herramientas</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-name">Jupyter Notebook</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:95%"></div></div>
+              <span class="skill-pct">95%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Git / GitHub</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Google Colab</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Excel / Hojas de cálculo</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+              <span class="skill-pct">80%</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03 / Proyectos</span>
+        <h2>Proyectos destacados</h2>
+        <p class="section-desc">Proyectos desarrollados durante el bootcamp de TripleTen, trabajando con datos reales.</p>
+      </div>
+
+      <!-- FILTER TABS -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="eda">EDA</button>
+        <button class="filter-btn" data-filter="stats">Estadística</button>
+        <button class="filter-btn" data-filter="web">Web App</button>
+        <button class="filter-btn" data-filter="business">Negocio</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- PROJECT 1 - FEATURED -->
+        <div class="project-card featured" data-tags="stats,business,eda">
+          <div class="project-badge">Destacado</div>
+          <div class="project-header">
+            <div class="project-icon">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <div class="project-meta">
+              <span class="project-sprint">Sprint 5</span>
+              <div class="project-status approved">Aprobado</div>
+            </div>
+          </div>
+          <h3 class="project-title">Análisis de Planes de Telefonía – Megaline</h3>
+          <p class="project-desc">
+            Análisis completo de 500 clientes de la operadora Megaline para determinar cuál de
+            sus dos planes (Surf vs Ultimate) genera mayor revenue. Incluye modelado de ingresos
+            por usuario, análisis estadístico y pruebas de hipótesis.
+          </p>
+          <div class="project-highlights">
+            <div class="highlight">
+              <i class="fa-solid fa-users"></i>
+              <span>500 usuarios analizados</span>
+            </div>
+            <div class="highlight">
+              <i class="fa-solid fa-database"></i>
+              <span>318K+ registros procesados</span>
+            </div>
+            <div class="highlight">
+              <i class="fa-solid fa-flask"></i>
+              <span>p-value &lt; 0.001</span>
+            </div>
+          </div>
+          <div class="project-findings">
+            <h4><i class="fa-solid fa-lightbulb"></i> Hallazgos clave</h4>
+            <ul>
+              <li>El plan Ultimate genera revenue estable (~$70/mes por usuario)</li>
+              <li>El plan Surf muestra alta variabilidad ($20–$581) por cargos adicionales</li>
+              <li>Diferencia estadísticamente significativa entre los planes (α = 0.05)</li>
+              <li>La región NY-NJ no difiere significativamente del resto del país</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">SciPy</span>
+            <span class="tech-tag">Matplotlib</span>
+            <span class="tech-tag">t-test</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/JesseQuartieri" target="_blank" class="btn-project btn-ghost">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 - FEATURED WEB APP -->
+        <div class="project-card featured" data-tags="web,eda">
+          <div class="project-badge badge-green">Web App</div>
+          <div class="project-header">
+            <div class="project-icon icon-green">
+              <i class="fa-solid fa-car"></i>
+            </div>
+            <div class="project-meta">
+              <span class="project-sprint">Sprint 7</span>
+              <div class="project-status approved">Aprobado</div>
+            </div>
+          </div>
+          <h3 class="project-title">Dashboard Interactivo – Venta de Vehículos</h3>
+          <p class="project-desc">
+            Aplicación web interactiva desarrollada con Streamlit y Plotly para el análisis de
+            anuncios de venta de vehículos en EE.UU. Desplegada en la nube con interfaz de usuario
+            dinámica y visualizaciones interactivas.
+          </p>
+          <div class="project-highlights">
+            <div class="highlight">
+              <i class="fa-solid fa-globe"></i>
+              <span>App desplegada en la nube</span>
+            </div>
+            <div class="highlight">
+              <i class="fa-solid fa-chart-bar"></i>
+              <span>Histogramas y scatter plots</span>
+            </div>
+            <div class="highlight">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Interfaz interactiva</span>
+            </div>
+          </div>
+          <div class="project-findings">
+            <h4><i class="fa-solid fa-lightbulb"></i> Funcionalidades</h4>
+            <ul>
+              <li>Histograma interactivo de distribución de kilometraje (50 bins)</li>
+              <li>Gráfico de dispersión: precio vs. kilometraje del vehículo</li>
+              <li>Validación y limpieza de datos en tiempo real</li>
+              <li>Diseño responsive y amigable para el usuario</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Plotly</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Git</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/JesseQuartieri/TripleTen-Sprint-7-Proyect" target="_blank" class="btn-project btn-ghost">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card" data-tags="stats,business,eda">
+          <div class="project-header">
+            <div class="project-icon icon-purple">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="project-meta">
+              <span class="project-sprint">Sprint 8</span>
+              <div class="project-status approved">Aprobado</div>
+            </div>
+          </div>
+          <h3 class="project-title">Análisis Completo Megaline – EDA Avanzado</h3>
+          <p class="project-desc">
+            Proyecto de escala completa que integra limpieza de datos, análisis exploratorio profundo,
+            segmentación de usuarios y modelado de revenue con recomendaciones de negocio accionables.
+          </p>
+          <div class="project-findings">
+            <h4><i class="fa-solid fa-lightbulb"></i> Componentes</h4>
+            <ul>
+              <li>Integración de 5 tablas de datos relacionales</li>
+              <li>Segmentación de usuarios por plan y comportamiento</li>
+              <li>Modelado de revenue mensual por cliente</li>
+              <li>Validación estadística y recomendaciones estratégicas</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">SciPy</span>
+            <span class="tech-tag">EDA</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/JesseQuartieri" target="_blank" class="btn-project btn-ghost">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="project-card" data-tags="eda,business">
+          <div class="project-header">
+            <div class="project-icon icon-orange">
+              <i class="fa-solid fa-music"></i>
+            </div>
+            <div class="project-meta">
+              <span class="project-sprint">Sprint 3</span>
+              <div class="project-status approved">Aprobado</div>
+            </div>
+          </div>
+          <h3 class="project-title">Análisis de Preferencias Musicales – Let Me Hear Music</h3>
+          <p class="project-desc">
+            Análisis del comportamiento de usuarios de streaming musical en dos ciudades, comparando
+            patrones por día de la semana y preferencias de género. Dataset de 65,079 registros.
+          </p>
+          <div class="project-findings">
+            <h4><i class="fa-solid fa-lightbulb"></i> Hallazgos</h4>
+            <ul>
+              <li>Springfield vs. Shelbyville: patrones de escucha distintos</li>
+              <li>Actividad del lunes difiere significativamente del viernes</li>
+              <li>Normalización y deduplicación de 65K+ registros de géneros</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Groupby</span>
+            <span class="tech-tag">Data Cleaning</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/JesseQuartieri" target="_blank" class="btn-project btn-ghost">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 5 -->
+        <div class="project-card" data-tags="business,eda">
+          <div class="project-header">
+            <div class="project-icon icon-teal">
+              <i class="fa-solid fa-store"></i>
+            </div>
+            <div class="project-meta">
+              <span class="project-sprint">Sprint 2</span>
+              <div class="project-status approved">Aprobado</div>
+            </div>
+          </div>
+          <h3 class="project-title">Segmentación de Clientes – Store 1</h3>
+          <p class="project-desc">
+            Análisis de la base de clientes de Store 1 para segmentación, evaluación de calidad de datos
+            y generación de insights por categoría. Incluye identificación de clientes jóvenes
+            y análisis de revenue por categoría de producto.
+          </p>
+          <div class="project-findings">
+            <h4><i class="fa-solid fa-lightbulb"></i> Entregables</h4>
+            <ul>
+              <li>Pipeline de normalización y limpieza de datos</li>
+              <li>Revenue por categoría de producto</li>
+              <li>Funciones de segmentación reutilizables</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Functions</span>
+            <span class="tech-tag">Filtering</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/JesseQuartieri" target="_blank" class="btn-project btn-ghost">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 6 -->
+        <div class="project-card" data-tags="stats,eda">
+          <div class="project-header">
+            <div class="project-icon icon-pink">
+              <i class="fa-solid fa-chart-bar"></i>
+            </div>
+            <div class="project-meta">
+              <span class="project-sprint">Sprint 4</span>
+              <div class="project-status approved">Aprobado</div>
+            </div>
+          </div>
+          <h3 class="project-title">Análisis Estadístico – Distribuciones y Pruebas</h3>
+          <p class="project-desc">
+            Aplicación de métodos estadísticos avanzados incluyendo análisis de distribuciones,
+            pruebas de hipótesis y validación de supuestos estadísticos sobre datos reales.
+          </p>
+          <div class="project-findings">
+            <h4><i class="fa-solid fa-lightbulb"></i> Técnicas aplicadas</h4>
+            <ul>
+              <li>Distribuciones normales y no paramétricas</li>
+              <li>Pruebas t de Student y Mann-Whitney</li>
+              <li>Intervalos de confianza y p-values</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">SciPy</span>
+            <span class="tech-tag">Statistics</span>
+            <span class="tech-tag">NumPy</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/JesseQuartieri" target="_blank" class="btn-project btn-ghost">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 7 -->
+        <div class="project-card" data-tags="eda">
+          <div class="project-header">
+            <div class="project-icon icon-yellow">
+              <i class="fa-solid fa-broom"></i>
+            </div>
+            <div class="project-meta">
+              <span class="project-sprint">Sprint 1</span>
+              <div class="project-status approved">Aprobado</div>
+            </div>
+          </div>
+          <h3 class="project-title">Fundamentos – Calidad y Limpieza de Datos</h3>
+          <p class="project-desc">
+            Proyecto base que establece el pipeline de preprocesamiento de datos. Evaluación de
+            calidad, conversión de tipos, manejo de excepciones y transformaciones de strings
+            sobre una base de datos de clientes.
+          </p>
+          <div class="project-findings">
+            <h4><i class="fa-solid fa-lightbulb"></i> Habilidades desarrolladas</h4>
+            <ul>
+              <li>Métodos de string: strip, replace, split, upper/lower</li>
+              <li>Conversión de tipos de datos y detección de errores</li>
+              <li>Manejo de excepciones con try-except</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">String Methods</span>
+            <span class="tech-tag">Type Conversion</span>
+            <span class="tech-tag">Try-Except</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/JesseQuartieri" target="_blank" class="btn-project btn-ghost">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 8 -->
+        <div class="project-card" data-tags="eda,stats">
+          <div class="project-header">
+            <div class="project-icon icon-indigo">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+            </div>
+            <div class="project-meta">
+              <span class="project-sprint">Sprint 6</span>
+              <div class="project-status approved">Aprobado</div>
+            </div>
+          </div>
+          <h3 class="project-title">Analítica Avanzada – Técnicas Especializadas</h3>
+          <p class="project-desc">
+            Proyecto de analítica avanzada aplicando técnicas especializadas de exploración
+            de datos, visualización compleja y metodologías de análisis propias del mundo profesional.
+          </p>
+          <div class="project-findings">
+            <h4><i class="fa-solid fa-lightbulb"></i> Técnicas avanzadas</h4>
+            <ul>
+              <li>Análisis multivariable y correlaciones</li>
+              <li>Visualizaciones avanzadas con Seaborn/Plotly</li>
+              <li>Metodologías de análisis profesional</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Seaborn</span>
+            <span class="tech-tag">Advanced EDA</span>
+            <span class="tech-tag">Plotly</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/JesseQuartieri" target="_blank" class="btn-project btn-ghost">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+      </div><!-- /projects-grid -->
+    </div>
+  </section>
+
+  <!-- ===== TIMELINE ===== -->
+  <section id="timeline">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04 / Trayectoria</span>
+        <h2>Progresión en el Bootcamp</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-sprint">Sprint 1–2</span>
+            <h4>Fundamentos de Python y Datos</h4>
+            <p>Limpieza de datos, funciones, estructuras de control, pandas básico.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-sprint">Sprint 3–4</span>
+            <h4>EDA y Estadística</h4>
+            <p>Análisis exploratorio, visualización, distribuciones estadísticas y pruebas de hipótesis.</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-sprint">Sprint 5–6</span>
+            <h4>Análisis de Negocio Avanzado</h4>
+            <p>Revenue modeling, segmentación de clientes, análisis a escala con 300K+ registros.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-sprint">Sprint 7–8</span>
+            <h4>Desarrollo Web & Proyecto Final</h4>
+            <p>Streamlit dashboard desplegado en la nube, proyecto de cierre con EDA completo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05 / Contacto</span>
+        <h2>Trabajemos juntos</h2>
+        <p class="section-desc">¿Tienes una oportunidad o proyecto interesante? Me encantaría escucharte.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <h4>GitHub</h4>
+          <p>Revisa mis repositorios y código</p>
+          <a href="https://github.com/JesseQuartieri" target="_blank" class="contact-link">
+            github.com/JesseQuartieri <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon contact-icon-blue">
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <h4>LinkedIn</h4>
+          <p>Conecta conmigo profesionalmente</p>
+          <a href="https://www.linkedin.com/in/jesse-andres-barrios-escobar-583765239/" target="_blank" class="contact-link">
+            linkedin.com/in/jesse-andres-barrios-escobar <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon contact-icon-green">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <h4>Email</h4>
+          <p>Escríbeme directamente</p>
+          <a href="mailto:Jesse.a.barrios.e@gmail.com" class="contact-link">
+            Jesse.a.barrios.e@gmail.com <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-cta">
+        <p>¿Listo para convertir tus datos en decisiones?</p>
+        <a href="https://github.com/JesseQuartieri" target="_blank" class="btn btn-primary">
+          <i class="fa-brands fa-github"></i> Ver mi GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-logo">Jesse Barrios Escobar<span class="accent">.</span></p>
+      <p class="footer-tagline">Data Analyst · Python · TripleTen</p>
+      <div class="footer-social">
+        <a href="https://github.com/JesseQuartieri" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jesse-andres-barrios-escobar-583765239/" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="footer-copy">© 2025 Jesse Barrios Escobar. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

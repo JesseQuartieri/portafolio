@@ -295,6 +295,17 @@ section { padding: 100px 0; }
   background: var(--bg-3);
   display: flex; align-items: center; justify-content: center;
   font-size: 4rem; color: var(--accent);
+  overflow: hidden;
+}
+.avatar-photo {
+  padding: 0;
+}
+.avatar-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  display: block;
 }
 .avatar-status {
   position: absolute; bottom: 8px; right: 8px;
